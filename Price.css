@@ -1,0 +1,97 @@
+body {
+  font-family: "Bagel Fat One", cursive;
+  font-family: "Roboto Condensed", sans-serif;
+  background-color: hsl(204, 43%, 93%);
+  font-size: 16px;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.wrapper {
+  /* height: 100vh; */
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: 1fr 1fr;
+  width: 700px;
+  /* grid-gap: 10px; */
+}
+/*Styles the top card*/
+.item1 {
+  grid-row: 1;
+  grid-column: 1 / span 2;
+  padding: 10px;
+  padding: 4% 6% 4% 6%;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  background-color: white;
+  color: hsl(218, 22%, 67%);
+  text-align: left;
+}
+h1 {
+  color: hsl(179, 62%, 43%);
+  font-weight: 400;
+}
+#Refund-Text {
+  color: hsl(71, 73%, 54%);
+  font-weight: 400;
+}
+/*Styles the bottom left card*/
+.item2 {
+  align-items: center;
+  background-color: hsl(179, 62%, 43%);
+  color: white;
+  font-weight: lighter;
+  font-weight: 300;
+  width: auto;
+  border-bottom-left-radius: 6px;
+}
+.item2-inside {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.item2,
+.item3 {
+  padding: 10px;
+}
+/*Styles the Dollar sign and price tag*/
+#Price-dollar {
+  font-weight: bold;
+  font-size: larger;
+}
+/*Styles the per month text thats to the right of the dollar price tag*/
+#Per-month {
+  font-size: small;
+  font-weight: lighter;
+  color: hsl(204, 43%, 93%);
+}
+/*Styles the sign up button*/
+#Sign-up-btn {
+  display: flex;
+  justify-content: center;
+  background-color: hsl(71, 73%, 54%);
+  border-radius: 5px;
+  padding: 10px;
+  width: 80%;
+}
+/*Styles the bottom right card*/
+.item3 {
+  color: white;
+  background-color: hsl(179, 61%, 63%);
+  border-bottom-right-radius: 6px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+#Why-us-title {
+  font-weight: 400;
+}
+#Why-us-text {
+  text-align: left;
+  font-weight: lighter;
+  color: hsl(180, 86%, 94%);
+  font-size: 14px;
+}
